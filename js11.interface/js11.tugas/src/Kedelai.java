@@ -10,16 +10,18 @@ public class Kedelai extends Binatang implements IHerbivora{
 
     @Override
     public void displayMakan(){
-        System.out.println("Kedelai merupakan hewan herbivora yang memakan tumbuh - tumbuhan");
+        System.out.println("Jenis   : Herbivora");
+        System.out.println("Makanan : Tumbuhan");
     }
 
     @Override
     public void displayBinatang(){
-        super.displayBinatang();
+        System.out.println("Jenis : " + super.nama);
+        System.out.println("Jumlah kaki : " + super.jmlKaki);
     }
 
     public void displayData(){
-        System.out.println("Kedelai memiliki suara " + suara);
-        System.out.println("Kedelai memiliki warna bulu " + warnaBulu);
+        System.out.println("Suara       : " + suara);
+        System.out.println("Warna bulu  : " + warnaBulu);
     }
 }

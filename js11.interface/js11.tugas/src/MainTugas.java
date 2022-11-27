@@ -1,14 +1,9 @@
 public class MainTugas {
     public static void main(String[] args) {
-        Singa sg = new Singa("Singa Afrika", 4, "roarrr", "oranye");
-        Kedelai kd = new Kedelai("Kedelai Arab", 4, "zeezh", "nude");
-        Gorilla gr = new Gorilla("Gorilla", 2, "aummm", "hitam");
-        
-        sg.displayMakan();
-        sg.displayBinatang();
-        sg.displayData();
+        Singa sg = new Singa("CingaCing", 4, "Roarr Roarrr", "Cokelat");
+        Kedelai kd = new Kedelai("Kedelai", 4, "Hehehehe", "Abu - Abu");
+        Gorilla gr = new Gorilla("Gulali", 4, "Haumm Haummm", "Hitam Manis");
 
-        System.out.println();
         kd.displayMakan();
         kd.displayBinatang();
         kd.displayData();
@@ -17,5 +12,10 @@ public class MainTugas {
         gr.displayMakan();
         gr.displayBinatang();
         gr.displayData();
+
+        System.out.println();
+        sg.displayMakan();
+        sg.displayBinatang();
+        sg.displayData();
     }
 }

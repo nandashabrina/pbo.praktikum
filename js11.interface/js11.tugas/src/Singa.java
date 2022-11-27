@@ -10,16 +10,18 @@ public class Singa extends Binatang implements IKarnivora{
 
     @Override
     public void displayMakan(){
-        System.out.println("Singa merupakan hewan karnivora yang memakan daging");
+        System.out.println("Jenis   : Karnivora");
+        System.out.println("Makanan : Daging");
     }
 
     @Override
     public void displayBinatang(){
-        super.displayBinatang();
+        System.out.println("Jenis : " + super.nama);
+        System.out.println("Jumlah kaki : " + super.jmlKaki);
     }
 
     public void displayData(){
-        System.out.println("Singa memiliki suara " + suara);
-        System.out.println("Singa memiliki warna bulu " + warnaBulu);
+        System.out.println("Suara       : " + suara);
+        System.out.println("Warna bulu  : " + warnaBulu);
     }
 }

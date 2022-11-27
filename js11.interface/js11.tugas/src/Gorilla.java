@@ -10,16 +10,18 @@ public class Gorilla extends Binatang implements IKarnivora, IHerbivora{
 
     @Override
     public void displayMakan(){
-        System.out.println("Gorilla merupakan hewan karnivora dan herbivora yang baik memakan daging - dagingan maupun tetumbuhan.");
+        System.out.println("Jenis   : Karnivora + Herbivora");
+        System.out.println("Makanan : Daging + Tumbuhan");
     }
 
     @Override
     public void displayBinatang(){
-        super.displayBinatang();
+        System.out.println("Jenis : " + super.nama);
+        System.out.println("Jumlah kaki : " + super.jmlKaki);
     }
 
     public void displayData(){
-        System.out.println("Gorilla memiliki suara " + suara);
-        System.out.println("Gorilla memiliki warna bulu " + warnaBulu);
+        System.out.println("Suara       : " + suara);
+        System.out.println("Warna bulu  : " + warnaBulu);
     }
 }

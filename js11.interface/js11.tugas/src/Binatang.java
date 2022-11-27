@@ -23,8 +23,5 @@ public abstract class Binatang {
         return jmlKaki;
     }
 
-    public void displayBinatang(){
-        System.out.println("Nama binatang : " + nama);
-        System.out.println("Jumlah kaki binatang : " + jmlKaki);
-    }
+    public abstract void displayBinatang();
 }
